@@ -7,7 +7,7 @@ from car_factory import CarFactory
 class TestCalliope(unittest.TestCase):
     def test_battery_needs_service(self):
         current_date = datetime.today().date()
-        last_service_date = current_date.replace(year=current_date.year - 3)
+        last_service_date = current_date.replace(year=current_date.year - 4)
         current_mileage = 0
         last_service_mileage = 0
 
@@ -45,7 +45,7 @@ class TestCalliope(unittest.TestCase):
 class TestGlissade(unittest.TestCase):
     def test_battery_needs_service(self):
         current_date = datetime.today().date()
-        last_service_date = current_date.replace(year=current_date.year - 3)
+        last_service_date = current_date.replace(year=current_date.year - 4)
         current_mileage = 0
         last_service_mileage = 0
 
